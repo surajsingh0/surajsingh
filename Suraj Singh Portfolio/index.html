@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style1.css">
+    <title>Suraj Singh</title>
+</head>
+<body>
+    <div class="main_doc">
+	<canvas id="c"></canvas>
+        <!-- 1st Page -->
+        <div class="page1" id="home">
+            <div class="p_image">
+                <img src="images/pic1.svg" alt="Suraj's Avatar" class="img1">
+            </div>
+            <div class="p_about">
+                <h1 class="large">Hello,</h1>
+                <h1>I'm <span style="color: rgb(85, 87, 255);">Suraj Singh</span>.</h1>
+                <h1>I'm a Full-stack Developer,</h1>
+                <h1>and a Data Scientist.</h1>
+                <h1></h1>
+            </div>
+        </div>
+
+        <!-- 2nd Page -->
+        <div class="page2" id="about">
+			<div class="nav">
+				<div class="navbar">
+					<ul>
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="sep nav_sep"></div>
+			</div>
+            <div class="about_sec">
+                <h1 class="large">About</h1>
+                <div class="about">
+                    <div class="about_me">
+                        <h1 class="medium">About me</h1>
+                        <hr color="skyblue">
+						<img src="images/pic1.svg" class="about_img round" />
+                        <p class="small bold">I'm full-stack developer working as a freelancer.<br>
+                            I enjoy buidling stuffs related to web.
+                        </p>
+                    </div>
+                    <div class="about_skills">
+                        <h1 class="medium">My Skills</h1>
+                        <hr color="skyblue">
+                        <div>
+                            <p>HTML</p>
+                            <div class="container">
+                              <div class="skills html">90%</div>
+                            </div>
+                            
+                            <p>CSS</p>
+                            <div class="container">
+                              <div class="skills css">60%</div>
+                            </div>
+                            
+                            <p>JavaScript</p>
+                            <div class="container">
+                              <div class="skills js">65%</div>
+                            </div>
+                            
+                            <p>Python</p>
+                            <div class="container">
+                              <div class="skills python">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sep"></div>
+
+        <!-- Portfolio - 3rd Page -->
+        <div class="page3 center" id="portfolio">
+            <h1 class="large">My Projects</h1>
+        </div>
+
+        <div class="sep"></div>
+
+        <!-- Contact - 4th Page -->
+        <div class="page4 center" id="contact">
+            <h1 class="large">Contact me</h1>
+            <form class="contact_form round">
+                <div class="flex flex_column flex_center">
+                    <span class="small">Name: </span><input placeholder="Your name" id="form_name" />
+                    <span class="small">Email: </span><input placeholder="Your email" type="email" id="form_email" />
+                    <span class="small">Description: </span><textarea></textarea><br>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="scripts/script1.js"></script>
+</body>
+</html>
